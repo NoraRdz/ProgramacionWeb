@@ -1,0 +1,43 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 500;
+   margin: 0 auto;
+   background-color: blanchedalmond;
+}
+.Parrafo{
+color: gray;
+line-height: 1.5em;
+}
+#Par1
+{
+    font-size: 20 px;
+}
+.Encabezado1{
+    color:mediumvioletred;
+    font:bolder;
+}
+
+tr{
+    width: fit-content;
+}
+/*Pseudoselectores*/
+tbody tr:nth-child(){
+background-color: cadetblue;
+}
+tbody tr:nth-child(even){
+background-color: cadetblue;
+}
+tbody tr:nth-child(odd){
+background-color: cadetblue;
+color:azure;
+}
+td:hover{
+background-color: blueviolet;
+}
+td :active{
+background-color: brown;
+}
+img{
+    width: 100 px;
+    height: 100px ;
+}
