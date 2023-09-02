@@ -1,43 +1,41 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 500;
-   margin: 0 auto;
-   background-color: blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200;
+   margin: auto ;
+   background-color: rgb(206, 255, 253);
 }
-.Parrafo{
-color: gray;
-line-height: 1.5em;
+#Disc{
+    align-items: center;
 }
-#Par1
-{
-    font-size: 20 px;
-}
-.Encabezado1{
-    color:mediumvioletred;
-    font:bolder;
-}
-
-tr{
-    width: fit-content;
+h1{
+    color: blue;
 }
 /*Pseudoselectores*/
+table{
+    margin:auto;
+}
 tbody tr:nth-child(){
-background-color: cadetblue;
+background-color: rgb(160, 159, 95);
 }
 tbody tr:nth-child(even){
-background-color: cadetblue;
+background-color: rgb(202, 2, 2);
 }
 tbody tr:nth-child(odd){
 background-color: cadetblue;
-color:azure;
+color:rgb(255, 255, 255);
 }
 td:hover{
-background-color: blueviolet;
+background-color: rgb(88, 36, 36);
+color:azure
+}
+div + p{
+    color: rgb(6, 26, 51);
+    background-color: rgb(139, 139, 139);
 }
 td :active{
 background-color: brown;
 }
 img{
-    width: 100 px;
-    height: 100px ;
+    width: 200 px;
+    height: 200px ;
 }
